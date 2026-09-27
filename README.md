@@ -88,11 +88,11 @@ Once the bot is running, try these commands in any chat:
 
 ---
 
-📢 Join Our WhatsApp Channel
+## 📢 Join Our WhatsApp Channel
 
 Stay updated with new features, bug fixes, and hosting tips:
 
-https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?logo=whatsapp&style=for-the-badge
+[![Join WhatsApp Channel](https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?logo=whatsapp&style=for-the-badge)](https://whatsapp.com/channel/0029VbCTghVBA1f3zXA50Z1z)
 
 ---
 
