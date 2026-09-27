@@ -41,12 +41,7 @@ Here is a quick overview of what the bot can do:
 Before deploying, you need to add your WhatsApp number to the bot's configuration.
 
 1. Open the **`.env`** file located in the root folder of the bot.
-2. Edit the phone number line to look like this:```
-
-PHONE_NUMBER=2567xxxxxxxx
-
-```
-   *Replace `2567xxxxxxxx` with your own WhatsApp number in international format (no `+`, no spaces).*
+2. Edit the phone number line. Replace the example `PHONE_NUMBER=2567xxxxxxxx` with your own WhatsApp number in international format (no `+`, no spaces).
 3. Save the file.
 
 > **Note:** The `TELEGRAM_TOKEN` is only required for the Telegram sticker download command. You can leave it blank if you don't need it.
