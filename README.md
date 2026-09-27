@@ -2,7 +2,7 @@
 
 <img src="https://n.uguu.se/oAHEcWhW.jpg" alt="Anoymous Mini Bot" width="200"/>
 
-# 🤖 Anoymous Mini 
+# 🤖 Anoymous Mini
 
 **A lightweight, privacy-focused WhatsApp bot built with Baileys.**
 
@@ -40,51 +40,47 @@ Here is a quick overview of what the bot can do:
 
 Before deploying, you need to add your WhatsApp number to the bot's configuration.
 
-1. **Open the `.env` file** located in the root folder of the bot.
-2. **Edit the phone number** line:
-   ```env
-   PHONE_NUMBER=2567xxxxxxxx
+1. Open the **`.env`** file located in the root folder of the bot.
+2. Edit the phone number line to look like this:```
+
+PHONE_NUMBER=2567xxxxxxxx
+
 ```
-
-Replace 2567xxxxxxxx with your own WhatsApp number in international format (no +, no spaces).
-
+   *Replace `2567xxxxxxxx` with your own WhatsApp number in international format (no `+`, no spaces).*
 3. Save the file.
 
-Note: The TELEGRAM_TOKEN is only required for the Telegram sticker download command. You can leave it blank if you don't need it.
+> **Note:** The `TELEGRAM_TOKEN` is only required for the Telegram sticker download command. You can leave it blank if you don't need it.
 
 ---
 
-🚀 Deployment
+## 🚀 Deployment
 
 Ready to get your bot online? Follow these simple steps to deploy it for free.
 
-Step 1: Create a Discord Account
-
+### Step 1: Create a Discord Account
 Most free bot hosting panels require a Discord account for support and account management.
+- Go to **[discord.com](https://discord.com)** and create a free account.
+- Join the respective support servers for the hosting panels you choose below.
 
-· Go to discord.com and create a free account.
-· Join the respective support servers for the hosting panels you choose below.
-
-Step 2: Sign Up for a Free Hosting Panel
-
+### Step 2: Sign Up for a Free Hosting Panel
 Pick one of the free Node.js hosting providers below and create your account:
 
-https://img.shields.io/badge/Bot--Hosting.net-Sign_Up-blueviolet?style=for-the-badge
-https://img.shields.io/badge/Legacy_Bot--Hosting-Sign_Up-blue?style=for-the-badge
-https://img.shields.io/badge/Katabump-Sign_Up-orange?style=for-the-badge
+[![Bot-Hosting.net](https://img.shields.io/badge/Bot--Hosting.net-Sign_Up-blueviolet?style=for-the-badge)](https://bot-hosting.net/?aff=anoymous1)
 
-Step 3: Upload & Start
+[![Legacy Bot-Hosting](https://img.shields.io/badge/Legacy_Bot--Hosting-Sign_Up-blue?style=for-the-badge)](https://legacy.bot-hosting.net/?aff=1281744798277046293)
 
+[![Katabump](https://img.shields.io/badge/Katabump-Sign_Up-orange?style=for-the-badge)](https://rl.katabump.fr/27c99a)
+
+### Step 3: Upload & Start
 Once you have signed up:
-
-1. Create a new Node.js server on the panel.
+1. Create a new **Node.js** server on the panel.
 2. Upload the bot files (or use the Git integration to pull your repo).
 3. Set the environment variables in the panel if needed.
-4. Hit Start to launch the bot.
+4. Hit **Start** to launch the bot.
 
 ---
 
-📱 Usage
+## 📱 Usage
 
 Once the bot is running, try these commands in any chat:
 
