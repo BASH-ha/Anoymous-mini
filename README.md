@@ -6,10 +6,10 @@
 
 **A lightweight, privacy-focused WhatsApp bot built with Baileys.**
 
-[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?logo=node.js)](https://nodejs.org)
-[![Baileys](https://img.shields.io/badge/Baileys-Multi--Device-blue)](https://github.com/WhiskeySockets/Baileys)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![WhatsApp Channel](https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?logo=whatsapp)](https://whatsapp.com/channel/0029VbCTghVBA1f3zXA50Z1z)
+[![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?logo=node.js&style=for-the-badge)](https://nodejs.org)
+[![Baileys](https://img.shields.io/badge/Baileys-Multi--Device-blue?style=for-the-badge)](https://github.com/WhiskeySockets/Baileys)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![WhatsApp Channel](https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?logo=whatsapp&style=for-the-badge)](https://whatsapp.com/channel/0029VbCTghVBA1f3zXA50Z1z)
 
 </div>
 
@@ -36,67 +36,55 @@ Here is a quick overview of what the bot can do:
 
 ---
 
-## 🚀 Installation & Setup
+## ⚙️ Configuration
 
-### 1. Clone the Repository
+Before deploying, you need to add your WhatsApp number to the bot's configuration.
 
-```bash
-git clone https://github.com/BASH-ha/Anoymous-mini.git
-cd Anoymous-mini
+1. **Open the `.env` file** located in the root folder of the bot.
+2. **Edit the phone number**
+   ```env
+   PHONE_NUMBER=2567xxxxxxxxx
 ```
 
-2. Install Dependencies
+Replace 2567xxxxxxxx with your own WhatsApp number in international format (no +, no spaces).
 
-```bash
-npm install
-```
-
-3. Configure Environment Variables
-
-Create a .env file in the root folder and add:
-
-```env
-PHONE_NUMBER=256701487186
-TELEGRAM_TOKEN=your_telegram_bot_token_here
-```
-
-· PHONE_NUMBER — Your bot's WhatsApp number in international format (no +, no spaces).
-· TELEGRAM_TOKEN — Only required if you plan to use the .tg command. Leave blank otherwise.
-
-4. Start the Bot
-
-```bash
-npm start
-```
-
-The first time you run it, you'll see a pairing code in the terminal. Open WhatsApp on your phone, go to Settings → Linked Devices → Link with phone number, and enter the code.
-
-Once linked, the bot will connect and you're ready to go!
+3. Save the file.
 
 ---
 
-⚙️ Configuration
+🚀 Deployment
 
-File Purpose
-.env Phone number & Telegram token
-data/prefix.json Change the command prefix (default: .)
-data/mode.json Toggle between public and private mode
-data/sudo.json List of sudo (trusted) numbers
+Ready to get your bot online? Follow these simple steps to deploy it for free.
 
-You can edit these files directly or use in-bot commands like .setprefix and .mode.
+Step 1: Create a Discord Account
 
----
+Most free bot hosting panels require a Discord account for support and account management.
 
-🖥️ Hosting Options
+· Go to discord.com and create a free account.
+· Join the respective support servers for the hosting panels you choose below.
 
-You can run Anoymous Mini on any Node.js host. Here are some recommended options:
+Step 2: Sign Up for a Free Hosting Panel
 
-Host Link
-Bot-Hosting.net https://bot-hosting.net/?aff=anoymous1
-Legacy Bot-Hosting https://legacy.bot-hosting.net/?aff=1281744798277046293
-Katabump https://rl.katabump.fr/27c99a
+Pick one of the free Node.js hosting providers below and create your account.
 
-All three support Node.js and are free to start. Just upload the bot files, set the environment variables, and hit Start.
+<div align="center">
+
+https://img.shields.io/badge/Bot--Hosting.net-Sign_Up-blueviolet?style=for-the-badge
+&nbsp;&nbsp;
+https://img.shields.io/badge/Legacy_Bot--Hosting-Sign_Up-blue?style=for-the-badge
+&nbsp;&nbsp;
+https://img.shields.io/badge/Katabump-Sign_Up-orange?style=for-the-badge
+
+</div>
+
+Step 3: Upload & Start
+
+Once you have signed up:
+
+1. Create a new Node.js server on the panel.
+2. Upload the bot files (or use the Git integration to pull your repo).
+3. Set the environment variables in the panel if needed.
+4. Hit Start to launch the bot.
 
 ---
 
@@ -104,9 +92,9 @@ All three support Node.js and are free to start. Just upload the bot files, set 
 
 Once the bot is running, try these commands in any chat:
 
-```
+```bash
+.ping
 .menu
-.play Shape of You
 .sticker (reply to an image)
 .8ball Will I be rich?
 ```
@@ -117,15 +105,17 @@ Once the bot is running, try these commands in any chat:
 
 Stay updated with new features, bug fixes, and hosting tips:
 
-👉 Join the WhatsApp Channel
+<div align="center">
+
+https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?logo=whatsapp&style=for-the-badge
+
+</div>
 
 ---
 
 🙏 Credits
 
 · Baileys — WhatsApp multi-device library
-· yt-search — YouTube search
-· @shineiichijo/canvas-chan — Sticker generation
 · Katabump — Free bot hosting
 · Bot-Hosting.net & Legacy Bot-Hosting — Alternative hosting
 
@@ -139,7 +129,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 <div align="center">
 
-Made with ❤️ by BASH-ha
+Made with ❤️ by BASHIRI
 
 </div>
-```
