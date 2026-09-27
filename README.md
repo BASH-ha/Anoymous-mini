@@ -2,7 +2,7 @@
 
 <img src="https://n.uguu.se/oAHEcWhW.jpg" alt="Anoymous Mini Bot" width="200"/>
 
-# 🤖 Anoymous Mini Bot
+# 🤖 Anoymous Mini 
 
 **A lightweight, privacy-focused WhatsApp bot built with Baileys.**
 
@@ -41,14 +41,16 @@ Here is a quick overview of what the bot can do:
 Before deploying, you need to add your WhatsApp number to the bot's configuration.
 
 1. **Open the `.env` file** located in the root folder of the bot.
-2. **Edit the phone number**
+2. **Edit the phone number** line:
    ```env
-   PHONE_NUMBER=2567xxxxxxxxx
+   PHONE_NUMBER=2567xxxxxxxx
 ```
 
 Replace 2567xxxxxxxx with your own WhatsApp number in international format (no +, no spaces).
 
 3. Save the file.
+
+Note: The TELEGRAM_TOKEN is only required for the Telegram sticker download command. You can leave it blank if you don't need it.
 
 ---
 
@@ -65,17 +67,11 @@ Most free bot hosting panels require a Discord account for support and account m
 
 Step 2: Sign Up for a Free Hosting Panel
 
-Pick one of the free Node.js hosting providers below and create your account.
-
-<div align="center">
+Pick one of the free Node.js hosting providers below and create your account:
 
 https://img.shields.io/badge/Bot--Hosting.net-Sign_Up-blueviolet?style=for-the-badge
-&nbsp;&nbsp;
 https://img.shields.io/badge/Legacy_Bot--Hosting-Sign_Up-blue?style=for-the-badge
-&nbsp;&nbsp;
 https://img.shields.io/badge/Katabump-Sign_Up-orange?style=for-the-badge
-
-</div>
 
 Step 3: Upload & Start
 
@@ -93,8 +89,8 @@ Once you have signed up:
 Once the bot is running, try these commands in any chat:
 
 ```bash
-.ping
 .menu
+.play Shape of You
 .sticker (reply to an image)
 .8ball Will I be rich?
 ```
@@ -105,17 +101,15 @@ Once the bot is running, try these commands in any chat:
 
 Stay updated with new features, bug fixes, and hosting tips:
 
-<div align="center">
-
 https://img.shields.io/badge/WhatsApp-Join%20Channel-25D366?logo=whatsapp&style=for-the-badge
-
-</div>
 
 ---
 
 🙏 Credits
 
 · Baileys — WhatsApp multi-device library
+· yt-search — YouTube search
+· @shineiichijo/canvas-chan — Sticker generation
 · Katabump — Free bot hosting
 · Bot-Hosting.net & Legacy Bot-Hosting — Alternative hosting
 
@@ -129,6 +123,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 <div align="center">
 
-Made with ❤️ by BASHIRI
+Made with ❤️ by BASH-ha
 
 </div>
